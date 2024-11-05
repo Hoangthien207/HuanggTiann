@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Nhạc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Danh Sách Nhạc</h1>
+        <div id="music-player">
+            <img id="cover" src="hosd.jpg" alt="Cover Image">
+            <audio id="audioPlayer" controls>
+                <source src="" type="audio/mpeg">
+                Trình duyệt của bạn không hỗ trợ thẻ audio.
+            </audio>
+        </div>
+        <ul id="playlist">
+            <li data-src="path/to/song1.mp3" data-cover="path/to/cover1.jpg">Bài Hát 1</li>
+            <li data-src="path/to/song2.mp3" data-cover="path/to/cover2.jpg">Bài Hát 2</li>
+            <li data-src="path/to/song3.mp3" data-cover="path/to/cover3.jpg">Bài Hát 3</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
